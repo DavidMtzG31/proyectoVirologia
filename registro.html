@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <nav class="navegacion">
+        <div class="superior">
+            <div class="superior--flex contenedor">
+                <div class="logo">
+                    <img src="img/logo_alterno.jpg" alt="LogoGobierno">
+                </div>
+
+                <div class="enlaces">
+                    <a href="#">Registro para vacunación</a>
+                    <a href="#">Información sobre COVID-19</a>
+                    <a href="#">Trámites</a>
+                    <a href="#">Gobierno</a>
+                </div>
+            </div>
+        </div>
+        <!--.superior -->
+
+        <div class="inferior">
+            <div class="inferior--flex contenedor">
+                <a href="#">Nosotros</a>
+                <a href="index.html">Becas</a>
+                <a href="#">Documentos</a>
+                <a href="#">Contraloría Social</a>
+                <a href="#">Transparencia</a>
+                <a href="#">Protección de Datos Personales</a>
+                <a href="#">Prensa</a>
+                <a href="#">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="banner">
+        <img src="img/banner.jpg" alt="bannerBecas">
+    </div>
+
+    <section class="contenedor">
+        <h1 class="titulo_registro">Inicia tu pre-registro</h1>
+
+        <form>
+
+            <div class="campo_flex">
+
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input class="input" type="text" id="nombre" placeholder="Tu nombre">
+                </div>
+                <!--.campo-->
+
+                <div class="campo">
+                    <label for="nombre">Apellido Paterno:</label>
+                    <input class="input" type="text" id="paterno" placeholder="Paterno">
+                </div>
+                <!--.campo-->
+
+                <div class="campo">
+                    <label for="nombre">Apellido Materno:</label>
+                    <input class="input" type="text" id="materno" placeholder="Materno">
+                </div>
+                <!--.campo-->
+
+            </div>
+            <!--.campo_flex-->
+
+            <div class="campo_flex">
+
+                <div class="campo">
+                    <label for="curp">CURP:</label>
+                    <input class="input curp" type="text" id="curp" placeholder="Clave Única de Registro de Población">
+                </div>
+
+                <div class="campo">
+                    <label for="curp">OCC:</label>
+                    <input class="input" type="text" id="occ" placeholder="OCC">
+                </div>
+                <!--.campo-->
+
+            </div>
+            <!--.campo_flex-->
+
+            <div class="campo_flex">
+
+                <div class="campo">
+                    <label for="nombre">Promedio actual:</label>
+                    <input class="input" type="text" id="promedio" placeholder="Promedio">
+                </div>
+                <!--.campo-->
+
+                <div class="campo">
+                    <label for="nombre">Entidad Federativa:</label>
+                    <input class="input" type="text" id="estado" placeholder="Estado">
+                </div>
+                <!--.campo-->
+
+                <div class="campo">
+                    <label for="nombre">Nivel escolar:</label>
+                    <input class="input" type="text" id="nivel" placeholder="Nivel escolar">
+                </div>
+                <!--.campo-->
+
+            </div>
+            <!--.campo_flex-->
+            <div class="submit">
+                <a href="#">
+                    <button class=" boton boton_registro" id="submit" type="button">Registrar</button>
+                </a>
+            </div>
+
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer_try">
+
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>
